@@ -60,7 +60,7 @@ Bundle "vim-scripts/VOoM"
 "search <c-p>
 Bundle 'kien/ctrlp.vim'
 Bundle 'tacahiroy/ctrlp-funky'
-Bundle 'jasoncodes/ctrlp-modified.vim'
+"Bundle 'jasoncodes/ctrlp-modified.vim'
 let g:ctrlp_extensions = ['funky']
 noremap <c-c> :CtrlPFunky<CR> "code functions
 map <c-m> :CtrlPModified<CR> " dirty files in git repro
