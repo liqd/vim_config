@@ -52,7 +52,7 @@ set smartindent
 Bundle 'klen/python-mode'
 let g:pymode_folding = 1
 " code checking 
-let g:pymode_lint_checkers = ['pyflakes', 'pep257', 'mccabe']
+let g:pymode_lint_checkers = ['pyflakes', 'pep8', 'pep257', 'mccabe']
 let g:pymode_lint_on_write = 1
 let g:pymode_lint_on_fly = 0
 "rope code refactoring
