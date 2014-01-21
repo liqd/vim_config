@@ -15,7 +15,7 @@ set hlsearch
 set incsearch
 set showmatch
 " select, search and replace"
-vnoremap <leader>sr "hy:%s/<C-r>h//gc<left><left><left>
+noremap <c-r> "hy:%s/<C-r>h//gc<left><left><left> 
 " paste
 "set mouse= " mouse=a mouse support, mouse="" für ssh!"
 set pastetoggle=<F12> " sauberes pasten
