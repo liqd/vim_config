@@ -5,7 +5,7 @@ set backspace=2
 " disable system bell
 set vb
 " line numbers
-set number 
+set number
 hi LineNr ctermfg=darkgrey ctermbg=black
 " encoding
 set encoding=utf-8
