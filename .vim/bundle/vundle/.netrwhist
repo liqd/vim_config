@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/home/joka/dev/proventis/buildout.development/src/suzuki.content/suzuki/content/browser'
+let g:netrw_dirhist_2='/home/joka/.rvm'
+let g:netrw_dirhist_3='/home/joka/dev/adhocracy/liqd_customers_plone_buildout/src/liqd.ypart_theme/src/liqd/ypart_theme/interfaces'
+let g:netrw_dirhist_4='/home/joka/dev/adhocracy/liqd_customers_plone_buildout/src/liqd.ypart_policy/src/liqd/ypart_policy/locales/de/LC_MESSAGES'
+let g:netrw_dirhist_5='/home/joka/tools'
+let g:netrw_dirhist_6='/home/joka/.offlineimap'
+let g:netrw_dirhist_7='/home/joka/dev/tools/liqd_vim'
+let g:netrw_dirhist_8='/home/joka/dev/tools/liqd_vim/.vim'
+let g:netrw_dirhist_9='/home/joka/dev'
