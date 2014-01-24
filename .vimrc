@@ -17,7 +17,7 @@ set showmatch
 " select, search and replace"
 vmap <Leader>r "sy:%s/<C-R>=substitute(@s,"\n",'\\n','g')<CR>/
 " paste
-"set mouse= " mouse=a mouse support, mouse="" für ssh!"
+set mouse=a
 set pastetoggle=<F12> " sauberes pasten
 " spell check
 map <F10> :setlocal spell spelllang=de<CR>
