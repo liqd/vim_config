@@ -1,9 +1,9 @@
-" Basic vim config 
+" Basic vim config
 
 " allow backspacing over everything in insert mode
-set backspace=2 
+set backspace=2
 " disable system bell
-set vb 
+set vb
 " line numbers
 set number 
 hi LineNr ctermfg=darkgrey ctermbg=black
@@ -51,7 +51,7 @@ set smartindent
 "python mode:  https://github.com/klen/python-mode
 Bundle 'klen/python-mode'
 let g:pymode_folding = 1
-" code checking 
+" code checking
 let g:pymode_lint_checkers = ['pyflakes', 'pep8', 'pep257', 'mccabe']
 let g:pymode_lint_on_write = 1
 let g:pymode_lint_on_fly = 0
@@ -124,7 +124,7 @@ autocmd BufReadPost *
 \   exe "normal g`\"" |
 \ endif
 
-"Nice to have 
+"Nice to have
 
 "gpg
 "Bundle "jamessan/vim-gnupg"
