@@ -38,7 +38,9 @@ set nocompatible              " required!
 filetype off                  " required!
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
-Bundle 'gmarik/vundle'
+" FIXME: As vundle is currently hard checked out in this repo, don't use
+" bundle to manage it.
+" Bundle 'gmarik/vundle'
 
 "Syntax and code checker to follow code styleguide
 
