@@ -145,3 +145,7 @@ autocmd BufReadPost *
 filetype plugin indent on " required!
 syntax on " syntax highlighting
 
+" remove automatic line numbering altogether
+"set nonumber
+" remove automatic line numbers set by pymode_options
+"autocmd FileType python setlocal nonumber
