@@ -88,9 +88,6 @@ map <leader>f :%! xmllint --format --html - "format html tags, without xmllint j
 
 "Programming helpers
 
-" highlight current column
-set cuc
-hi CursorColumn ctermbg=darkgrey
 " mark line length
 hi ColorColumn ctermbg=darkgrey
 autocmd FileType python set colorcolumn=80
@@ -137,6 +134,10 @@ autocmd BufReadPost *
 "let g:airline#extensions#tabline#enabled = 1
 "let g:airline_powerline_fonts = 1
 "let g:bufferline_echo = 0
+
+" highlight current column
+" set cuc
+" hi CursorColumn ctermbg=darkgrey
 
 "End Vundle Plugin installation
 filetype plugin indent on " required!
