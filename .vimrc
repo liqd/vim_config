@@ -3,7 +3,7 @@
 " allow backspacing over everything in insert mode
 set backspace=2
 " disable system bell
-set vb
+set vb t_vb=
 " line numbers
 set number
 hi LineNr ctermfg=darkgrey ctermbg=black
