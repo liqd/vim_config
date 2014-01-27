@@ -113,6 +113,13 @@ Bundle 'tacahiroy/ctrlp-funky'
 let g:ctrlp_extensions = ['funky']
 noremap <c-b> :CtrlPBuffer<CR> 
 noremap <c-c> :CtrlPFunky<CR> 
+let g:ctrlp_user_command = {
+    \ 'types': {
+        \ 1: ['.git/', 'cd %s && git ls-files &&  git ls-files --others --exclude-standard']
+    \ },
+    \ 'fallback': 'find %s -type f ' 
+    \ }
+
 "Undo
 Bundle 'https://github.com/sjl/gundo.vim.git'
 noremap <F5> :GundoToggle<CR>
