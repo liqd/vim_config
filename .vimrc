@@ -57,9 +57,9 @@ let g:pymode_folding = 1
 let g:pymode_lint_checkers = ['pyflakes', 'pep8', 'pep257', 'mccabe']
 let g:pymode_lint_on_write = 1
 let g:pymode_lint_on_fly = 0
-"rope code refactoring
+"rope code refactoring / code completition
 let g:pymode_rope_complete_on_dot = 0
-let g:pymode_rope_completion = 1
+let g:pymode_rope_completion = 0
 " :FixWhiteSpace (rm white space, mind some projects dont like this)
 Bundle "bronson/vim-trailing-whitespace"
 "salt syntax
